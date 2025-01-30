@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f7f7;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffcad4;
+            color: #1d3557;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        header p {
+            margin: 5px 0;
+            font-size: 1em;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .assignment-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .assignment-item {
+            background-color: #acedff;
+            padding: 20px;
+            border-radius: 12px;
+            flex: 1 1 calc(45% - 20px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .assignment-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .assignment-item h2 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.2em;
+            color: #1d3557;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+
+        .assignment-item h2 span {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            background-color: #a3bfe6;
+            color: #1d3557;
+            font-weight: bold;
+            border-radius: 50%;
+            font-size: 1em;
+        }
+
+        .assignment-item p {
+            margin: 0;
+            font-size: 0.95em;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ffcad4;
+            color: #1d3557;
+            margin-top: 20px;
+            border-top: 3px solid #fca6ad;
+        }
+
+        footer a {
+            color: #1d3557;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Chukwuetoo Joy Chikaodili</h1>
+        <p>ALT/SOE/024/5413</p>
+        <p>HTML Assignment</p>
+    </header>
+
+    <main>
+        <div class="assignment-list">
+            <div class="assignment-item">
+                <h2><span>1</span> <a href="./biography/bio.html" target="_blank">Assignment 1</a></h2>
+                <p>My simple biography about my goals.</p>
+            </div>
+            <div class="assignment-item">
+                <h2><span>2</span> <a href="./Form/form.html" target="_blank">Assignment 2</a></h2>
+                <p>Replica of AltSchool Signup page.</p>
+            </div>
+            <div class="assignment-item">
+                <h2><span>3</span> <a href="./table/table.html" target="_blank">Assignment 3</a></h2>
+                <p>Table displays all AltSchool Courses and more about myself using HTML elements</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Chukwuetoo Joy | <a href="#">Back to Top</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+/* courses.css */
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #504d9a;
+    color: pink;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #bddbf4;
+    color: white;
+}
+
+td {
+    vertical-align: top;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* about-me.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafb;
+}
+
+header {
+    background-color: #3b5998;
+    color: pink;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.media-content {
+    text-align: center;
+}
+
+.media-content h2 {
+    margin-bottom: 15px;
+}
+
+.media-content p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+video, audio {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
